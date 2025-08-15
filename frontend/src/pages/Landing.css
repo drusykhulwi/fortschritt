@@ -1,0 +1,19 @@
+.landing-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.landing-page p{
+    width: 50%;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.landing-page .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
