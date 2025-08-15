@@ -1,0 +1,13 @@
+button{
+    width: 100px;
+    height: 30px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: var(--border-radius);
+    color: var(--text-color);
+    align-self: center;
+}
+button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
