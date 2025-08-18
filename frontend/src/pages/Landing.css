@@ -1,11 +1,32 @@
-.landing-page{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.landing-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.pexels.com/photos/26225775/pexels-photo-26225775.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+
+.landing-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.2); /* transparent layer */
+  backdrop-filter: blur(7px);
+  z-index: 0;
+}
+
+.landing-page > * {
+  position: relative;
+  z-index: 1; /* keep text above the blur */
+}
+
+
 .landing-page p{
     width: 50%;
     font-size: 1.3rem;
