@@ -26,3 +26,22 @@
     border-radius: 10px;
     border: var(--border);
 }
+
+@media(max-width: 920px){
+    .register .register-container{
+        width: 75%;
+    }
+    .register .register-container .register-form input{
+        height: 5vh;
+    }
+}
+@media(max-width: 770px){
+    .register .register-container{
+        width: 65%;
+    }
+}
+@media(max-width: 480px){
+    .register .register-container{
+        width: 95%;
+    }
+}
